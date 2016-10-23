@@ -1,0 +1,16 @@
+PODS:
+  - UTNetworking (0.1.0)
+
+DEPENDENCIES:
+  - UTNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  UTNetworking:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UTNetworking: 6600e650b7d7098a42431663b52be3d9ad073c00
+
+PODFILE CHECKSUM: 6122d0dab1235c111fd8c2d90efd7ec4f9f783e9
+
+COCOAPODS: 1.0.1

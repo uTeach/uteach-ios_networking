@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		142A66ED19E4997B3E3F1E4980592037 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2099D9BC6B07E944C146F661EEA203FB /* Pods-UTNetworking_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6FB1C386EF26B6D749D0465E347C6F3 /* Pods-UTNetworking_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CCD53D81C16CB511B32F62F5F05A5CF /* UTNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9A9A67A7D1176FD3F19BCA6AC55BDC /* UTNetworking-dummy.m */; };
+		98740BB3CDA3F787EDA79FEB378145E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9DCBEBAB125029B370D7BC2EC06BE3FF /* UTNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D4D8C3410126FACD95C15790238C1C3 /* UTNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFE927B69D4446704956CFF4DAB24D49 /* Pods-UTNetworking_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC339E2F85128AF34323C8AA780BB38 /* Pods-UTNetworking_Example-dummy.m */; };
+		B902AA8E90B3FE7694ECF4F19F1AD0BF /* Pods-UTNetworking_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 627B6B3C3A83504C5F5AC231D8AA6462 /* Pods-UTNetworking_Tests-dummy.m */; };
+		C8FD71EAE903684929F220F46DAAF2FC /* Pods-UTNetworking_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E88D166001375541B24EA15E06A2E0D /* Pods-UTNetworking_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E019AB9FC289377E5909AF89B0E88B55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F08611BC0ED441499B4088F4A20CFA9B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B54D14879B5B8A0FC806A4842C0160 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31DB03B36872F397F6A3069592DD3414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAEEAE5ADDEB8DE11F5BB7D57080B49D;
+			remoteInfo = UTNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C86A928A5B4CEFA827A6CD2B643CA01 /* Pods-UTNetworking_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UTNetworking_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		269265C27409FF0A92ADC71E77391070 /* Pods-UTNetworking_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UTNetworking_Example.modulemap"; sourceTree = "<group>"; };
+		2D171CFE0D1B7B47CE44CC9432683055 /* Pods-UTNetworking_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UTNetworking_Example-resources.sh"; sourceTree = "<group>"; };
+		2DFB02B157B17DF278B54D3DB3C1A169 /* UTNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UTNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4D8C3410126FACD95C15790238C1C3 /* UTNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UTNetworking-umbrella.h"; sourceTree = "<group>"; };
+		4066CBB105B38A805ADA5C936D5F6EC4 /* Pods-UTNetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UTNetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
+		46D720809D9ECE9A66AA28658C6292E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E88D166001375541B24EA15E06A2E0D /* Pods-UTNetworking_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UTNetworking_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5B4634706692A84A8A0A48E1BFE64106 /* UTNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UTNetworking.xcconfig; sourceTree = "<group>"; };
+		5DC5A7D450688054344020CF22F581E6 /* Pods-UTNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UTNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		627B6B3C3A83504C5F5AC231D8AA6462 /* Pods-UTNetworking_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UTNetworking_Tests-dummy.m"; sourceTree = "<group>"; };
+		7C20C364685B7BFAB538D78DCBDD4ABD /* Pods-UTNetworking_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UTNetworking_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8B9A9A67A7D1176FD3F19BCA6AC55BDC /* UTNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UTNetworking-dummy.m"; sourceTree = "<group>"; };
+		8CE8374ACA537F1933EAE8BDEAF9F9B0 /* Pods-UTNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UTNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97A158CF4252DAB4CE9829A08E37626E /* UTNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UTNetworking.modulemap; sourceTree = "<group>"; };
+		999483E4E1CFABAC3A25D5CD1E901AEA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A971724F4EEAF96C159E27554C7EC993 /* Pods-UTNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UTNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A9B54D14879B5B8A0FC806A4842C0160 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		ACADFAFD7FEE64593E18F9742F0FE378 /* Pods-UTNetworking_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UTNetworking_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B6FB1C386EF26B6D749D0465E347C6F3 /* Pods-UTNetworking_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UTNetworking_Example-umbrella.h"; sourceTree = "<group>"; };
+		B9390182F98937362633C239E80A5617 /* Pods-UTNetworking_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UTNetworking_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9A6E742070D4FB4A5FDF244B99FFBE3 /* Pods-UTNetworking_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UTNetworking_Tests-resources.sh"; sourceTree = "<group>"; };
+		C1D23407E757FD8BFDBE8C1C69999A09 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C41F332FE8EA7FA90E5A1AFCF5D542C9 /* Pods-UTNetworking_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UTNetworking_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0FA8B3673872B39693BD4A9020A9D2A /* Pods-UTNetworking_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UTNetworking_Tests.modulemap"; sourceTree = "<group>"; };
+		DAC339E2F85128AF34323C8AA780BB38 /* Pods-UTNetworking_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UTNetworking_Example-dummy.m"; sourceTree = "<group>"; };
+		E501B05855E8CC49C972594FFEDB97AC /* UTNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UTNetworking-prefix.pch"; sourceTree = "<group>"; };
+		E66E1F6FDB291B30D203737E21D296CC /* Pods-UTNetworking_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UTNetworking_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9B026ECA558BA9E9954A46F2AB964EC /* Pods_UTNetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UTNetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0AB04D4E8E9F757510E0A4E18A55CD /* Pods_UTNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UTNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69A22E5C629B90D5114D9C4BF9B7A5F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98740BB3CDA3F787EDA79FEB378145E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DE9219223F73C118B847D9E1537372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142A66ED19E4997B3E3F1E4980592037 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2E691D0629A188480DEF83F7972B6E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E019AB9FC289377E5909AF89B0E88B55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00D50DD6F8CFDAB046850743AD5F559F /* Pods-UTNetworking_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				999483E4E1CFABAC3A25D5CD1E901AEA /* Info.plist */,
+				D0FA8B3673872B39693BD4A9020A9D2A /* Pods-UTNetworking_Tests.modulemap */,
+				ACADFAFD7FEE64593E18F9742F0FE378 /* Pods-UTNetworking_Tests-acknowledgements.markdown */,
+				E66E1F6FDB291B30D203737E21D296CC /* Pods-UTNetworking_Tests-acknowledgements.plist */,
+				627B6B3C3A83504C5F5AC231D8AA6462 /* Pods-UTNetworking_Tests-dummy.m */,
+				1C86A928A5B4CEFA827A6CD2B643CA01 /* Pods-UTNetworking_Tests-frameworks.sh */,
+				B9A6E742070D4FB4A5FDF244B99FFBE3 /* Pods-UTNetworking_Tests-resources.sh */,
+				4E88D166001375541B24EA15E06A2E0D /* Pods-UTNetworking_Tests-umbrella.h */,
+				5DC5A7D450688054344020CF22F581E6 /* Pods-UTNetworking_Tests.debug.xcconfig */,
+				8CE8374ACA537F1933EAE8BDEAF9F9B0 /* Pods-UTNetworking_Tests.release.xcconfig */,
+			);
+			name = "Pods-UTNetworking_Tests";
+			path = "Target Support Files/Pods-UTNetworking_Tests";
+			sourceTree = "<group>";
+		};
+		38A362AF9BA9CA2DE1D4BB5E6EE4369D /* UTNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				FDFE63636D862488F9F97535C451BE5F /* Classes */,
+			);
+			path = UTNetworking;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4155C92C7B6F29E680F8302DB7BBD3E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9B026ECA558BA9E9954A46F2AB964EC /* Pods_UTNetworking_Example.framework */,
+				EC0AB04D4E8E9F757510E0A4E18A55CD /* Pods_UTNetworking_Tests.framework */,
+				2DFB02B157B17DF278B54D3DB3C1A169 /* UTNetworking.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A9C5F99B73CB17BF766D096F945A9BDA /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4155C92C7B6F29E680F8302DB7BBD3E7 /* Products */,
+				83C719189BFEAAB5CBDB5EF0243D5813 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83C719189BFEAAB5CBDB5EF0243D5813 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9042E2B923537D97A125FE9B2CF9193F /* Pods-UTNetworking_Example */,
+				00D50DD6F8CFDAB046850743AD5F559F /* Pods-UTNetworking_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9042E2B923537D97A125FE9B2CF9193F /* Pods-UTNetworking_Example */ = {
+			isa = PBXGroup;
+			children = (
+				46D720809D9ECE9A66AA28658C6292E7 /* Info.plist */,
+				269265C27409FF0A92ADC71E77391070 /* Pods-UTNetworking_Example.modulemap */,
+				C41F332FE8EA7FA90E5A1AFCF5D542C9 /* Pods-UTNetworking_Example-acknowledgements.markdown */,
+				B9390182F98937362633C239E80A5617 /* Pods-UTNetworking_Example-acknowledgements.plist */,
+				DAC339E2F85128AF34323C8AA780BB38 /* Pods-UTNetworking_Example-dummy.m */,
+				7C20C364685B7BFAB538D78DCBDD4ABD /* Pods-UTNetworking_Example-frameworks.sh */,
+				2D171CFE0D1B7B47CE44CC9432683055 /* Pods-UTNetworking_Example-resources.sh */,
+				B6FB1C386EF26B6D749D0465E347C6F3 /* Pods-UTNetworking_Example-umbrella.h */,
+				A971724F4EEAF96C159E27554C7EC993 /* Pods-UTNetworking_Example.debug.xcconfig */,
+				4066CBB105B38A805ADA5C936D5F6EC4 /* Pods-UTNetworking_Example.release.xcconfig */,
+			);
+			name = "Pods-UTNetworking_Example";
+			path = "Target Support Files/Pods-UTNetworking_Example";
+			sourceTree = "<group>";
+		};
+		A9C5F99B73CB17BF766D096F945A9BDA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D37D0CB323CBAF395B92E9D55951BD73 /* UTNetworking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BABC5D07793EFC0B0C97A3AC251A5234 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1D23407E757FD8BFDBE8C1C69999A09 /* Info.plist */,
+				97A158CF4252DAB4CE9829A08E37626E /* UTNetworking.modulemap */,
+				5B4634706692A84A8A0A48E1BFE64106 /* UTNetworking.xcconfig */,
+				8B9A9A67A7D1176FD3F19BCA6AC55BDC /* UTNetworking-dummy.m */,
+				E501B05855E8CC49C972594FFEDB97AC /* UTNetworking-prefix.pch */,
+				3D4D8C3410126FACD95C15790238C1C3 /* UTNetworking-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UTNetworking";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D37D0CB323CBAF395B92E9D55951BD73 /* UTNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				BABC5D07793EFC0B0C97A3AC251A5234 /* Support Files */,
+				38A362AF9BA9CA2DE1D4BB5E6EE4369D /* UTNetworking */,
+			);
+			name = UTNetworking;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FDFE63636D862488F9F97535C451BE5F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A9B54D14879B5B8A0FC806A4842C0160 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3690FFCDF8C24C26FB4154479E381681 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FD71EAE903684929F220F46DAAF2FC /* Pods-UTNetworking_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F2425DF0148BCE8044B41922D0FF74A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCBEBAB125029B370D7BC2EC06BE3FF /* UTNetworking-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27F35B59EE2CE5171E7C2E3CA8E75CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2099D9BC6B07E944C146F661EEA203FB /* Pods-UTNetworking_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		248C0D8B0A8C59DB8CAE4AF12417376B /* Pods-UTNetworking_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B69FA064DCA1A4B70853CFEC268A3A /* Build configuration list for PBXNativeTarget "Pods-UTNetworking_Example" */;
+			buildPhases = (
+				F3032A7F00C6A93846FFDD7FA0A83020 /* Sources */,
+				75DE9219223F73C118B847D9E1537372 /* Frameworks */,
+				A27F35B59EE2CE5171E7C2E3CA8E75CC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63D8683C767DF5839A6B8955EAECAC9C /* PBXTargetDependency */,
+			);
+			name = "Pods-UTNetworking_Example";
+			productName = "Pods-UTNetworking_Example";
+			productReference = E9B026ECA558BA9E9954A46F2AB964EC /* Pods_UTNetworking_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE911295390B0DC5F2467BC25B9E92A9 /* Pods-UTNetworking_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC199BA72F0B7FB7B338808A0F58DEE /* Build configuration list for PBXNativeTarget "Pods-UTNetworking_Tests" */;
+			buildPhases = (
+				E8CB7184BFBA9F2B91EC5CD249B84DB1 /* Sources */,
+				E2E691D0629A188480DEF83F7972B6E2 /* Frameworks */,
+				3690FFCDF8C24C26FB4154479E381681 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UTNetworking_Tests";
+			productName = "Pods-UTNetworking_Tests";
+			productReference = EC0AB04D4E8E9F757510E0A4E18A55CD /* Pods_UTNetworking_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CAEEAE5ADDEB8DE11F5BB7D57080B49D /* UTNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9867B462A15CFFEA2CE6BFEC82462C53 /* Build configuration list for PBXNativeTarget "UTNetworking" */;
+			buildPhases = (
+				CCEB5FED8DF809EA989D12ACE0BFAFF5 /* Sources */,
+				69A22E5C629B90D5114D9C4BF9B7A5F9 /* Frameworks */,
+				4F2425DF0148BCE8044B41922D0FF74A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UTNetworking;
+			productName = UTNetworking;
+			productReference = 2DFB02B157B17DF278B54D3DB3C1A169 /* UTNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					248C0D8B0A8C59DB8CAE4AF12417376B = {
+						LastSwiftMigration = 0800;
+					};
+					CAEEAE5ADDEB8DE11F5BB7D57080B49D = {
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4155C92C7B6F29E680F8302DB7BBD3E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				248C0D8B0A8C59DB8CAE4AF12417376B /* Pods-UTNetworking_Example */,
+				AE911295390B0DC5F2467BC25B9E92A9 /* Pods-UTNetworking_Tests */,
+				CAEEAE5ADDEB8DE11F5BB7D57080B49D /* UTNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCEB5FED8DF809EA989D12ACE0BFAFF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08611BC0ED441499B4088F4A20CFA9B /* ReplaceMe.swift in Sources */,
+				6CCD53D81C16CB511B32F62F5F05A5CF /* UTNetworking-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8CB7184BFBA9F2B91EC5CD249B84DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B902AA8E90B3FE7694ECF4F19F1AD0BF /* Pods-UTNetworking_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3032A7F00C6A93846FFDD7FA0A83020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE927B69D4446704956CFF4DAB24D49 /* Pods-UTNetworking_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63D8683C767DF5839A6B8955EAECAC9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UTNetworking;
+			target = CAEEAE5ADDEB8DE11F5BB7D57080B49D /* UTNetworking */;
+			targetProxy = 31DB03B36872F397F6A3069592DD3414 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		401C85362791F92ABEC6E711372316C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DC5A7D450688054344020CF22F581E6 /* Pods-UTNetworking_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UTNetworking_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UTNetworking_Tests/Pods-UTNetworking_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UTNetworking_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5EED29589E43773902932A3AFEE60617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CE8374ACA537F1933EAE8BDEAF9F9B0 /* Pods-UTNetworking_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UTNetworking_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UTNetworking_Tests/Pods-UTNetworking_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UTNetworking_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8C8535F002E2B177AEBBFA4DC8CB1E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B4634706692A84A8A0A48E1BFE64106 /* UTNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UTNetworking/UTNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UTNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UTNetworking/UTNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UTNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DC652F72B339492DC4CB1DD7013CA15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4066CBB105B38A805ADA5C936D5F6EC4 /* Pods-UTNetworking_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UTNetworking_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UTNetworking_Example/Pods-UTNetworking_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UTNetworking_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E247D4B27D7FFDD2239F7E5776492F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A971724F4EEAF96C159E27554C7EC993 /* Pods-UTNetworking_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UTNetworking_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UTNetworking_Example/Pods-UTNetworking_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UTNetworking_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4C87214291D8F50ADB223006C915992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B4634706692A84A8A0A48E1BFE64106 /* UTNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UTNetworking/UTNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UTNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UTNetworking/UTNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UTNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC199BA72F0B7FB7B338808A0F58DEE /* Build configuration list for PBXNativeTarget "Pods-UTNetworking_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401C85362791F92ABEC6E711372316C0 /* Debug */,
+				5EED29589E43773902932A3AFEE60617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92B69FA064DCA1A4B70853CFEC268A3A /* Build configuration list for PBXNativeTarget "Pods-UTNetworking_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E247D4B27D7FFDD2239F7E5776492F62 /* Debug */,
+				DC652F72B339492DC4CB1DD7013CA15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9867B462A15CFFEA2CE6BFEC82462C53 /* Build configuration list for PBXNativeTarget "UTNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C87214291D8F50ADB223006C915992 /* Debug */,
+				B8C8535F002E2B177AEBBFA4DC8CB1E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

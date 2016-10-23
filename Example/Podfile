@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UTNetworking_Example' do
+  pod 'UTNetworking', :path => '../'
+
+  target 'UTNetworking_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

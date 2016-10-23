@@ -1,0 +1,6 @@
+framework module UTNetworking {
+  umbrella header "UTNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}
