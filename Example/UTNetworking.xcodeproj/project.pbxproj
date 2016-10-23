@@ -13,6 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		6AFBC0E71DBC427800E01D6C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 6AFBC0E31DBC427800E01D6C /* .gitkeep */; };
 		996A329E90470E83F6148D7D /* Pods_UTNetworking_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE19D6D723B260492F3E1496 /* Pods_UTNetworking_Tests.framework */; };
 		EC49808E9668F5F01579409F /* Pods_UTNetworking_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14BD42318087D3C4345BBF24 /* Pods_UTNetworking_Example.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,7 @@
 		607FACE51AFB9204008FA782 /* UTNetworking_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UTNetworking_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		6AFBC0E31DBC427800E01D6C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		9F54AE2AA5EC70B42C39234D /* UTNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UTNetworking.podspec; path = ../UTNetworking.podspec; sourceTree = "<group>"; };
 		C26DDCFBB93BA4689B99E044 /* Pods-UTNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UTNetworking_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UTNetworking_Example/Pods-UTNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D1B69EC73615374DF21D462E /* Pods-UTNetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UTNetworking_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-UTNetworking_Example/Pods-UTNetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				6AFBC0E11DBC427800E01D6C /* UTNetworking */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for UTNetworking */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -157,6 +160,31 @@
 				D527DBC448EE968ED3C82E59 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		6AFBC0E11DBC427800E01D6C /* UTNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				6AFBC0E21DBC427800E01D6C /* Assets */,
+				6AFBC0E41DBC427800E01D6C /* Classes */,
+			);
+			name = UTNetworking;
+			path = ../UTNetworking;
+			sourceTree = "<group>";
+		};
+		6AFBC0E21DBC427800E01D6C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6AFBC0E31DBC427800E01D6C /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6AFBC0E41DBC427800E01D6C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +281,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				6AFBC0E71DBC427800E01D6C /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

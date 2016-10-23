@@ -1,9 +1,8 @@
 {
   "name": "UTNetworking",
   "version": "0.1.0",
-  "summary": "A short description of UTNetworking.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/UTNetworking",
+  "summary": "Networking library for uteach.",
+  "homepage": "https://github.com/uTeach/uteach-ios_networking",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +11,19 @@
     "Santiago Lazzari": "santiaolazzariios@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/UTNetworking.git",
+    "git": "https://github.com/uTeach/uteach-ios_networking.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
+  },
+  "dependencies": {
+    "SwiftyJSON": [
+
+    ],
+    "Alamofire": [
+
+    ]
   },
   "source_files": "UTNetworking/Classes/**/*"
 }

@@ -1,5 +1,9 @@
 PODS:
-  - UTNetworking (0.1.0)
+  - Alamofire (3.5.1)
+  - SwiftyJSON (3.1.1)
+  - UTNetworking (0.1.0):
+    - Alamofire
+    - SwiftyJSON
 
 DEPENDENCIES:
   - UTNetworking (from `../`)
@@ -9,7 +13,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  UTNetworking: 6600e650b7d7098a42431663b52be3d9ad073c00
+  Alamofire: 0dfba1184a543e2aa160f4e39cac4e8aba48d223
+  SwiftyJSON: f0be2e604f83e8405a624e9f891898bf6ed4e019
+  UTNetworking: 9366e222f02806290c90ae61cf8264e061631835
 
 PODFILE CHECKSUM: 6122d0dab1235c111fd8c2d90efd7ec4f9f783e9
 
